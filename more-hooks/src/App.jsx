@@ -1,13 +1,10 @@
-
-import './App.css';
-// import Lab from './components/Lab';
-import InputText from './components/InputText';
+import ToDo from "./components/ToDo";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      
-      <InputText/>
+      <ToDo />
     </div>
   );
 }
